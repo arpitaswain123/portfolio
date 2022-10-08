@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="front.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <nav class="navbar  fixed-top navbar-expand-sm bg-light">
+                <div class="container-fluid">
+
+                    <h2><span class="A">A</span>RPITA</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item btn btn-light"><a class="nav-link" onclick="hidenshow('home')"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item btn btn-light"><a class="nav-link" onclick="hidenshow('about')"
+                                href="#about">About</a>
+                        </li>
+                        <li class="nav-item btn btn-light"><a class="nav-link" onclick="hidenshow('skill')"
+                                href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item btn btn-light"><a class="nav-link" onclick="hidenshow('project')"
+                                href="#project">Project</a>
+                        </li>
+                        <li class="nav-item btn btn-light"><a class="nav-link" onclick="hidenshow('contact')"
+                                href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <br><br><br>
+    <!---------------------------banner------------------------------>
+    <div class="section">
+        <div class="row">
+            <div class="col-4 part1">
+                <img class="img-fluid" src="image/rinky.jpg" alt="">
+            </div>
+            <div class="col-7 part2">
+                <div class="container-fluid mt-3 itm" id="home" style="display: block;">
+                    <h3 class="name">ARPITA SWAIN</h3>
+
+                    <a class="btn btn-secondary btn-lg active touch" role="button" aria-pressed="true"
+                        onclick="hidenshow('contact')" href="#contact">GET IN
+                        TOUCH</a>
+
+                </div>
+
+
+                <div class="container-fluid mt-3 itm" id="about">
+                    <div class="row">
+                        <span class="abt">
+                            ABOUT ME
+                            <hr>
+                        </span>
+                        <div class="col left">
+                            <p style="color: grey;">Hello there! I am <strong>Arpita Swain.</strong> I am a
+                                <strong>Web
+                                    designer</strong>,
+                                and I'm very passionate and
+                                dedicated to my work.
+                            </p>
+
+                            <p style="color: grey;">With 2 years experience as a professional a Web designer, I
+                                have
+                                acquired the skills and knowledge necessary to make your project a success.
+                            </p>
+                        </div>
+                        <div class="col right">
+
+                            <pre
+                                style="color: grey;"><span class="first"><b>Name:</b></span> <span class="second">     Arpita Swain</span></pre>
+                            <pre
+                                style="color: grey;"><span class="first"><b>Address:</b></span> <span class="second">  Cuttack Odisha India</span></pre>
+                            <pre
+                                style="color: grey;"><span class="first"><b>Study:</b></span> <span class="second">    Biju Pattnaik Univercity of Technology</span></pre>
+                            <pre
+                                style="color: grey;"><span class="first"><b>Degree:</b></span> <span class="second">   Master in Computer Appication</span></pre>
+                            <pre
+                                style="color: grey;"><span class="first"><b>Mail:</b></span> <span class="second">     Swaina067@gmail.com</span></pre>
+                            <pre
+                                style="color: grey;"><span class="first"><b>Phone:</b></span> <span class="second">    9337020953</span></pre>
+
+                        </div>
+                        <br><br>
+
+
+                        <!-----------------------education part -------------------------------------->
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="abt">
+                                            EDUCATION
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                            </div>
+                        </div>
+
+
+
+                        <div class="row ">
+                            <div class="col-4 educol1">
+                                <ul style="list-style-type:square;">
+                                    <li><span class="year" style="color:gray;">2020-2022</span></li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style-type:square;">
+                                    <li><span class="year" style="color:gray;">2017-2020</span></li>
+                                </ul>
+                                <br>
+                                <br>
+                                <ul style="list-style-type:square;">
+                                    <li><span class="year" style="color:gray;">2015-2017</span></li>
+                                </ul>
+
+                            </div>
+                            <div class="col-6 educol2">
+                                <ul style="list-style-type: none;">
+                                    <li>BPUT</li>
+                                    <p style="color:gray;">Master Degree</p>
+                                </ul>
+                                <br>
+                                <ul style="list-style-type: none;">
+                                    <li>UTKAL UNIVERSITY</li>
+                                    <p style="color:gray;">Bachelor Degree</p>
+                                </ul>
+                                <br>
+                                <ul style="list-style-type: none;">
+                                    <li>DRIEMS COLLEGE</li>
+                                    <p style="color:gray;">Associate Degree</p>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-----------------------social media part -------------------------------------->
+                    <div class="row">
+                        <div class="col">
+                            <span class="abt">
+                                SOCIAL MEDIA
+                            </span>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="centerdiv">
+                        <a href="https://t.me/arpitaswain1" target="_blank">
+                            <i class="fa-brands fa-2x fa-telegram"></i>
+                        </a>
+
+                        <a href="https://instagram.com/swaina067?igshid=YmMyMTA2M2Y" target="_blank">
+                            <i class="fa-brands fa-2x fa-instagram"></i>
+                        </a>
+
+                        <a href="https://youtube.com/channel/UCQziFQMMiw28Ee6jYL-jXzA" target="_blank">
+                            <i class="fa-brands fa-2x fa-youtube"></i>
+                        </a>
+
+                        <a href="https:\\www.linkedin.com\in\arpita-swain-8299071a7" target="_blank">
+                            <i class="fa-brands fa-2x fa-linkedin-in"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-----------------------skill part -------------------------------------->
+                <div class="container-fluid mt-3 itm" id="skill">
+                    <div class="container skill">
+                        <div class="row ">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="abt">
+                                            PROGRAMMING
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <hr>
+                                    </div>
+                                </div>
+
+                                <p style="color: grey;">HTML&CSS</p>
+                                <p style="color: grey;">BOOTSTRAP</p>
+                                <p style="color: grey;">JAVASCRIPT</p>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <span class="abt">
+                                            LANGUAGE
+                                        </span>
+                                    </div>
+                                    <div class="col">
+                                        <hr>
+                                    </div>
+                                </div>
+
+                                <p style="color: grey;">ENGLISH</p>
+                                <p style="color: grey;">HINDI</p>
+                                <p style="color: grey;">ORIYA</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
+
+
+
+                <!-----------------------project part -------------------------------------->
+
+                <div class="container-fluid mt-3 itm" id="project">
+
+                    <div class="container">
+
+                        <P class="wedding">Wedding Bell's</P>
+                        <div class="row">
+                            <div class="col">
+                                <img src="image/pic4.jpg" alt="" height="400px" width="300px">
+                            </div>
+                            <div class="col">
+                                <img src="image/pic6.jpg" alt="" height="400px" width="300px">
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <div class="col">
+                                <img src="image/pic1.jpg" alt="" height="400px" width="300px">
+                            </div>
+                            <div class="col">
+                                <img src="image/pic3.jpg" alt="" height="400px" width="300px">
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <a type="button" class="btn btn-dark" href="web/project.html" target="_blank"
+                            style="margin-left:40%;">View
+                            More</a>
+
+                    </div>
+                </div>
+
+                <!-----------------------contact part -------------------------------------->
+
+                <div class="container-fluid mt-3 itm" id="contact">
+                    <div class="row">
+                        <div class="col cont">
+                            <h3>CONTACT INFO</h3>
+                            <div class="info">
+                                <span><i class="fa-solid fa-envelope"></i> contact@arpitaswain.in</span>
+                            </div>
+                            <div class="info"><span><i class="fa-solid fa-phone"></i> +933-702-0953</span></div>
+                            <div class="info"><span><i class="fa-solid fa-location-dot"></i>
+                                    Cuttack,India-754021</span>
+                            </div>
+                        </div>
+                        <div class="col form">
+                            <form onsubmit="return validation()">
+                                <input type="text" id="name" class="form-control" placeholder="Name">
+                                <span id="username"></span>
+
+                                <input type="email" id="email" class="form-control" placeholder="Email">
+                                <span id="useremail"></span>
+
+                                <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                                <span id="usermessage"></span>
+
+                                <input type="submit" onclick="showData()" value="Submit" style="margin-left:40%;">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <!-----------------------footer part -------------------------------------->
+
+    <div class="row footer">
+        <div class="copy col">
+            <p>copyright@2022</p>
+        </div>
+        <div class="icon col">
+            <!-- Add font awesome icons -->
+            <a href="https://youtube.com/channel/UCQziFQMMiw28Ee6jYL-jXzA">
+                <i class="fa-brands fa-square-youtube"></i>
+            </a>
+            <a href="https://instagram.com/swaina067?igshid=YmMyMTA2M2Y">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https:\\www.linkedin.com\in\arpita-swain-8299071a7">
+                <i class="fa-brands fa-1x fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <!--------------------mouse cruser------------------->
+    <div class="cursor"></div>
+
+    <script type="text/javascript">
+
+        const cursor = document.querySelector(".cursor");
+
+        //maousemove
+
+        document.addEventListener("mousemove", (e) => {
+            let x = e.pageX;
+            let y = e.pageY;
+
+
+
+            cursor.style.top = (y - 25) + "px";
+            cursor.style.left = (x - 10) + "px";
+        });
+
+
+
+    </script>
+</body>
+
+</html>
